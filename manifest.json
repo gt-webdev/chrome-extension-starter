@@ -1,19 +1,13 @@
 {
 	"manifest_version": 2,
 
-	"name": "Tomato",
-	"description": "This extension is a timer based on the Pomodoro Technique",
+	"name": "Extension Name",
+	"description": "Extension Description",
 	"version": "1.0",
 
 	"browser_action": {
 		"default_icon": "icon.png",
-		"default_title": "Tomato: Your Pomodoro Timer"
-	},
-	"background": {
-		"scripts": ["pomodoroState.js", "breakState.js", "moment.js", "background.js"],
-		"persistent": false
-	},
-	"permissions": [
-		"notifications"
-	]
+		"default_title": "Chrome Extension Title",
+		"default_popup": "popup.html"
+	}
 }

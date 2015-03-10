@@ -1,1 +1,1 @@
-Tomato is a Pomodoro timer extension developed to introduce chrome extensions during a GT WebDev presentation.
+This is a starter folder for creating chrome extensions with 1 popup page.
